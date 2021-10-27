@@ -1,0 +1,2 @@
+panelboard_ros-master:ptz_driver_udp-master:tank_driver-master/socketcan_bridge:tank_driver-master/socketcan_interface:tank_driver-master/tank_driver:tank_driver-master/turn_on_tank:tank_fire/tank_fire
+-DCATKIN_DEVEL_PREFIX=/home/huxinjie/tank_ws/devel -DCMAKE_INSTALL_PREFIX=/home/huxinjie/tank_ws/install -G Unix Makefiles

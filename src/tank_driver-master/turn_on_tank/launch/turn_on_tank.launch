@@ -1,0 +1,21 @@
+<launch>
+  <arg name="tank_name" default="tank_1"/>
+
+    <node pkg="socketcan_bridge" name="topic_to_socketcan_node" type="topic_to_socketcan_node" output="screen">
+    <remap from="/sent_messages" to="$(arg tank_name)/can_send_msgs"/>
+    </node>
+
+    <node pkg="socketcan_bridge" name="socketcan_to_topic_node" type="socketcan_to_topic_node" output="screen">
+    <remap from="/received_messages" to="$(arg tank_name)/can_received_msgs"/>
+    </node>
+    
+    <node pkg="turn_on_tank" name="tank_robot" type="turn_on_tank_node" output="screen">
+    <remap from="/cmd_vel" to="$(arg tank_name)/cmd_vel"/>
+    <remap from="/sent_messages" to="$(arg tank_name)/can_send_msgs"/>
+    </node>
+
+    
+  
+</launch>
+
+

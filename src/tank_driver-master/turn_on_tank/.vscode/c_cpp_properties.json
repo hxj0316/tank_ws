@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/cn/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/cn/catkin_ws/src/ros_canopen/canopen_402/include/**",
+        "/home/cn/catkin_ws/src/ros_canopen/canopen_chain_node/include/**",
+        "/home/cn/catkin_ws/src/ros_canopen/canopen_master/include/**",
+        "/home/cn/catkin_ws/src/ros_canopen/canopen_motor_node/include/**",
+        "/home/cn/catkin_ws/src/panelboard_ros/include/**",
+        "/home/cn/catkin_ws/src/ros_canopen/socketcan_bridge/include/**",
+        "/home/cn/catkin_ws/src/ros_canopen/socketcan_interface/include/**",
+        "/home/cn/catkin_ws/src/turn_on_tank/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

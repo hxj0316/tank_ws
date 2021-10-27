@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tank_driver</name>
+  <version>0.8.5</version>
+  <description>A tank_driver for ROS</description>
+
+  <license>LGPL</license>
+
+  <url type="website">http://elecnode.com</url>
+  <url type="repository">http://elecnode.com</url>
+  <url type="bugtracker">http://elecnode.com</url>
+
+  <maintainer email="geekfuns@qq.com">Mathias Lüdtke</maintainer>
+  <author email="geekfuns@qq.com">Florian Weisshardt</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>can_msgs</exec_depend>
+  <!--exec_depend>canopen_test_utils</exec_depend-->
+  <exec_depend>socketcan_bridge</exec_depend>
+  <exec_depend>socketcan_interface</exec_depend>
+  <exec_depend>turn_on_tank</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

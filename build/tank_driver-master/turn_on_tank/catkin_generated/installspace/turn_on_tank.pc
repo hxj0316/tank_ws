@@ -1,0 +1,8 @@
+prefix=/home/huxinjie/tank_ws/install
+
+Name: turn_on_tank
+Description: Description of turn_on_tank
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

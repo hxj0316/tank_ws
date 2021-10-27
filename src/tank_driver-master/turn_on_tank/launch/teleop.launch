@@ -1,0 +1,10 @@
+<launch>
+  <arg name="tank_name" default="tank_1"/>
+
+    <node pkg="turn_on_tank" name="turtlebot_teleop" type="turtlebot_teleop_key.py" output="screen">
+    <remap from="/cmd_vel" to="$(arg tank_name)/cmd_vel"/>
+    </node>
+  
+</launch>
+
+
