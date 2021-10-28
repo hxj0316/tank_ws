@@ -1,0 +1,8 @@
+prefix=/home/huxinjie/tank_ws/build/devel
+
+Name: tank_fire
+Description: Description of tank_fire
+Version: 0.0.0
+Cflags: -I/home/huxinjie/tank_ws/src/tank_fire/tank_fire/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

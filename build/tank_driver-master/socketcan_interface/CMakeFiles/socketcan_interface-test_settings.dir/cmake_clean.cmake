@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/socketcan_interface-test_settings.dir/test/test_settings.cpp.o"
-  "/home/huxinjie/tank_ws/devel/lib/socketcan_interface/socketcan_interface-test_settings.pdb"
-  "/home/huxinjie/tank_ws/devel/lib/socketcan_interface/socketcan_interface-test_settings"
+  "../../devel/lib/socketcan_interface/socketcan_interface-test_settings.pdb"
+  "../../devel/lib/socketcan_interface/socketcan_interface-test_settings"
 )
 
 # Per-language clean rules from dependency scanning.

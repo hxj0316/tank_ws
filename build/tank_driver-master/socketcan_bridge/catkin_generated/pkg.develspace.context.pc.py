@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/huxinjie/tank_ws/src/tank_driver-master
 PROJECT_CATKIN_DEPENDS = "can_msgs;rosconsole_bridge;roscpp;socketcan_interface".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lsocketcan_to_topic;-ltopic_to_socketcan".split(';') if "-lsocketcan_to_topic;-ltopic_to_socketcan" != "" else []
 PROJECT_NAME = "socketcan_bridge"
-PROJECT_SPACE_DIR = "/home/huxinjie/tank_ws/devel"
+PROJECT_SPACE_DIR = "/home/huxinjie/tank_ws/build/devel"
 PROJECT_VERSION = "0.8.5"

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_to_socketcan.dir/test/to_socketcan_test.cpp.o"
-  "/home/huxinjie/tank_ws/devel/lib/socketcan_bridge/test_to_socketcan.pdb"
-  "/home/huxinjie/tank_ws/devel/lib/socketcan_bridge/test_to_socketcan"
+  "../../devel/lib/socketcan_bridge/test_to_socketcan.pdb"
+  "../../devel/lib/socketcan_bridge/test_to_socketcan"
 )
 
 # Per-language clean rules from dependency scanning.

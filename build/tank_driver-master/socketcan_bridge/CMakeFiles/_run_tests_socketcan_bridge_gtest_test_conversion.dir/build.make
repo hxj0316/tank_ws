@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/huxinjie/tank_ws/build
 include tank_driver-master/socketcan_bridge/CMakeFiles/_run_tests_socketcan_bridge_gtest_test_conversion.dir/progress.make
 
 tank_driver-master/socketcan_bridge/CMakeFiles/_run_tests_socketcan_bridge_gtest_test_conversion:
-	cd /home/huxinjie/tank_ws/build/tank_driver-master/socketcan_bridge && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/huxinjie/tank_ws/build/test_results/socketcan_bridge/gtest-test_conversion.xml "/home/huxinjie/tank_ws/devel/lib/socketcan_bridge/test_conversion --gtest_output=xml:/home/huxinjie/tank_ws/build/test_results/socketcan_bridge/gtest-test_conversion.xml"
+	cd /home/huxinjie/tank_ws/build/tank_driver-master/socketcan_bridge && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/huxinjie/tank_ws/build/test_results/socketcan_bridge/gtest-test_conversion.xml "/home/huxinjie/tank_ws/build/devel/lib/socketcan_bridge/test_conversion --gtest_output=xml:/home/huxinjie/tank_ws/build/test_results/socketcan_bridge/gtest-test_conversion.xml"
 
 _run_tests_socketcan_bridge_gtest_test_conversion: tank_driver-master/socketcan_bridge/CMakeFiles/_run_tests_socketcan_bridge_gtest_test_conversion
 _run_tests_socketcan_bridge_gtest_test_conversion: tank_driver-master/socketcan_bridge/CMakeFiles/_run_tests_socketcan_bridge_gtest_test_conversion.dir/build.make

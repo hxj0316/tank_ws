@@ -68,13 +68,13 @@ set(turn_on_tank_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(turn_on_tank_SOURCE_PREFIX /home/huxinjie/tank_ws/src/tank_driver-master/turn_on_tank)
-  set(turn_on_tank_DEVEL_PREFIX /home/huxinjie/tank_ws/devel)
+  set(turn_on_tank_DEVEL_PREFIX /home/huxinjie/tank_ws/build/devel)
   set(turn_on_tank_INSTALL_PREFIX "")
   set(turn_on_tank_PREFIX ${turn_on_tank_DEVEL_PREFIX})
 else()
   set(turn_on_tank_SOURCE_PREFIX "")
   set(turn_on_tank_DEVEL_PREFIX "")
-  set(turn_on_tank_INSTALL_PREFIX /home/huxinjie/tank_ws/install)
+  set(turn_on_tank_INSTALL_PREFIX /usr/local)
   set(turn_on_tank_PREFIX ${turn_on_tank_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/huxinjie/tank_ws/install/lib;/opt/ros/melodic/lib)
+    foreach(path /usr/local/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

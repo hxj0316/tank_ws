@@ -88,33 +88,33 @@ ptz_driver_udp_node_OBJECTS = \
 # External object files for target ptz_driver_udp_node
 ptz_driver_udp_node_EXTERNAL_OBJECTS =
 
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: ptz_driver_udp-master/CMakeFiles/ptz_driver_udp_node.dir/src/ptz_driver_udp_node.cpp.o
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: ptz_driver_udp-master/CMakeFiles/ptz_driver_udp_node.dir/build.make
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libroscpp.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/librosconsole.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/librostime.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libserial.so
-/home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node: ptz_driver_udp-master/CMakeFiles/ptz_driver_udp_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huxinjie/tank_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node"
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: ptz_driver_udp-master/CMakeFiles/ptz_driver_udp_node.dir/src/ptz_driver_udp_node.cpp.o
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: ptz_driver_udp-master/CMakeFiles/ptz_driver_udp_node.dir/build.make
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libroscpp.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/librosconsole.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/librostime.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libcpp_common.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: /opt/ros/melodic/lib/libserial.so
+devel/lib/ptz_driver_udp/ptz_driver_udp_node: ptz_driver_udp-master/CMakeFiles/ptz_driver_udp_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huxinjie/tank_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../devel/lib/ptz_driver_udp/ptz_driver_udp_node"
 	cd /home/huxinjie/tank_ws/build/ptz_driver_udp-master && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ptz_driver_udp_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ptz_driver_udp-master/CMakeFiles/ptz_driver_udp_node.dir/build: /home/huxinjie/tank_ws/devel/lib/ptz_driver_udp/ptz_driver_udp_node
+ptz_driver_udp-master/CMakeFiles/ptz_driver_udp_node.dir/build: devel/lib/ptz_driver_udp/ptz_driver_udp_node
 
 .PHONY : ptz_driver_udp-master/CMakeFiles/ptz_driver_udp_node.dir/build
 

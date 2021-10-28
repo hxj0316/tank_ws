@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/panelboard_com_node.dir/src/panelboard_com_node.cpp.o"
-  "/home/huxinjie/tank_ws/devel/lib/panelboard_com/panelboard_com_node.pdb"
-  "/home/huxinjie/tank_ws/devel/lib/panelboard_com/panelboard_com_node"
+  "../devel/lib/panelboard_com/panelboard_com_node.pdb"
+  "../devel/lib/panelboard_com/panelboard_com_node"
 )
 
 # Per-language clean rules from dependency scanning.

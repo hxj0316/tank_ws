@@ -1,4 +1,4 @@
-prefix=/home/huxinjie/tank_ws/install
+prefix=/usr/local
 
 Name: panelboard_com
 Description: Description of panelboard_com

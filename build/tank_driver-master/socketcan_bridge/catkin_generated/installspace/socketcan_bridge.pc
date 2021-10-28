@@ -1,4 +1,4 @@
-prefix=/home/huxinjie/tank_ws/install
+prefix=/usr/local
 
 Name: socketcan_bridge
 Description: Description of socketcan_bridge

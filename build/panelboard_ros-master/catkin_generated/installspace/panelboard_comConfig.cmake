@@ -68,13 +68,13 @@ set(panelboard_com_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(panelboard_com_SOURCE_PREFIX /home/huxinjie/tank_ws/src/panelboard_ros-master)
-  set(panelboard_com_DEVEL_PREFIX /home/huxinjie/tank_ws/devel)
+  set(panelboard_com_DEVEL_PREFIX /home/huxinjie/tank_ws/build/devel)
   set(panelboard_com_INSTALL_PREFIX "")
   set(panelboard_com_PREFIX ${panelboard_com_DEVEL_PREFIX})
 else()
   set(panelboard_com_SOURCE_PREFIX "")
   set(panelboard_com_DEVEL_PREFIX "")
-  set(panelboard_com_INSTALL_PREFIX /home/huxinjie/tank_ws/install)
+  set(panelboard_com_INSTALL_PREFIX /usr/local)
   set(panelboard_com_PREFIX ${panelboard_com_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/huxinjie/tank_ws/install/lib;/opt/ros/melodic/lib)
+    foreach(path /usr/local/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/huxinjie/tank_ws/build
 include tank_driver-master/socketcan_interface/CMakeFiles/run_tests_socketcan_interface_gtest_socketcan_interface-test_delegates.dir/progress.make
 
 tank_driver-master/socketcan_interface/CMakeFiles/run_tests_socketcan_interface_gtest_socketcan_interface-test_delegates:
-	cd /home/huxinjie/tank_ws/build/tank_driver-master/socketcan_interface && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/huxinjie/tank_ws/build/test_results/socketcan_interface/gtest-socketcan_interface-test_delegates.xml "/home/huxinjie/tank_ws/devel/lib/socketcan_interface/socketcan_interface-test_delegates --gtest_output=xml:/home/huxinjie/tank_ws/build/test_results/socketcan_interface/gtest-socketcan_interface-test_delegates.xml"
+	cd /home/huxinjie/tank_ws/build/tank_driver-master/socketcan_interface && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/huxinjie/tank_ws/build/test_results/socketcan_interface/gtest-socketcan_interface-test_delegates.xml "/home/huxinjie/tank_ws/build/devel/lib/socketcan_interface/socketcan_interface-test_delegates --gtest_output=xml:/home/huxinjie/tank_ws/build/test_results/socketcan_interface/gtest-socketcan_interface-test_delegates.xml"
 
 run_tests_socketcan_interface_gtest_socketcan_interface-test_delegates: tank_driver-master/socketcan_interface/CMakeFiles/run_tests_socketcan_interface_gtest_socketcan_interface-test_delegates
 run_tests_socketcan_interface_gtest_socketcan_interface-test_delegates: tank_driver-master/socketcan_interface/CMakeFiles/run_tests_socketcan_interface_gtest_socketcan_interface-test_delegates.dir/build.make

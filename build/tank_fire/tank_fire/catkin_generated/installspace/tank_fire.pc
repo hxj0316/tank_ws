@@ -1,4 +1,4 @@
-prefix=/home/huxinjie/tank_ws/install
+prefix=/usr/local
 
 Name: tank_fire
 Description: Description of tank_fire

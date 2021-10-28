@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/socketcan_interface_plugin.dir/src/socketcan_interface_plugin.cpp.o"
-  "/home/huxinjie/tank_ws/devel/lib/libsocketcan_interface_plugin.pdb"
-  "/home/huxinjie/tank_ws/devel/lib/libsocketcan_interface_plugin.so"
+  "../../devel/lib/libsocketcan_interface_plugin.pdb"
+  "../../devel/lib/libsocketcan_interface_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

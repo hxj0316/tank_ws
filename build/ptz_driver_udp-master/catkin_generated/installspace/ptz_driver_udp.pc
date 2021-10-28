@@ -1,4 +1,4 @@
-prefix=/home/huxinjie/tank_ws/install
+prefix=/usr/local
 
 Name: ptz_driver_udp
 Description: Description of ptz_driver_udp
